@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eefef3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  width: 25vh;
+  padding-left: 3vh;
+  padding-bottom: 2vh;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+header ul li {
+  list-style: none;
+  padding-right: 6vw;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 2vh;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  color: black;
+}
+
+.fotodefundo {
+  height: 35vh;
+}
+.fotodefundo img {
+  width: 100%;
+  height: 100%;
+}
+
+main .SessaoPrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+main .SessaoPrincipal img {
+  width: 78vh;
+  height: auto;
+  border-radius: 10%;
+  padding: 2vh 1vh 1vh 15vh;
+}
+main .SessaoPrincipal .ConteudoPrincipalEscrito {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 2.3vh;
+  flex-shrink: 10vh;
+}
+main .SessaoPrincipal h1 {
+  font-family: "Kodchasan", sans-serif;
+  font-size: 4.3vh;
+  font-weight: 600;
+  font-style: normal;
+}
+main .SessaoPrincipal p {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 26.5px;
+}
+main .SessaoSecundaria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8.5vh;
+}
+main .SessaoSecundaria p {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 26.5px;
+  padding-left: 15vh;
+}
+main .SessaoSecundaria .BlocoDeImagens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18.5vh;
+  padding-right: 3vh;
+  padding-bottom: 3vw;
+}
+
+footer {
+  background-color: #8b5cf6;
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: bisque;
+}/*# sourceMappingURL=Style.css.map */
